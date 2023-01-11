@@ -47,9 +47,9 @@ export default function TextForm(props) {
         <h3>{props.heading}</h3>
         <textarea className="form-control" value={text} onChange={handleOnChange} id="exampleFormControlTextarea1" rows="8"></textarea>
         </div>
-        <button className="btn btn-primary mx-1" onClick={handleUpClick}>Convert to uppercase</button>
-        <button className="btn btn-primary mx-1" onClick={handleLowClick}>Convert to Lowercase</button>
-        <button className="btn btn-primary mx-1" onClick={handleVowels}>Words Starting with vowel</button>
+        <button className="btn btn-primary mx-1 my-1" onClick={handleUpClick}>Convert to uppercase</button>
+        <button className="btn btn-primary mx-1 my-1" onClick={handleLowClick}>Convert to Lowercase</button>
+        <button className="btn btn-primary mx-1 my-1" onClick={handleVowels}>Words Starting with vowel</button>
     </div>
     <div className="container my-3">
         <h3>Your Text Summary</h3>
